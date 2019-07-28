@@ -1,11 +1,11 @@
 {
-  "name": "mango-music",
+  "name": "react-music",
   "version": "1.1.0",
   "description": "A music webapp built with react",
   "author": "mcx",
   "private": true,
   "scripts": {
-    "start": "npm run dev",
+    "start": "PORT=8011 npm run dev",
     "dev": "node scripts/start.js",
     "build": "node scripts/build.js"
   },
